@@ -191,6 +191,108 @@ nav {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+/* Page 2 */
+
+.river-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr -5px;
+}
+
+#salmon-river-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 300px;
+    height: 300px;
+}
+.river1-title {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: #3BA5A5;
+    font-size: .9em;
+    padding-top: 10px;
+
+}
+.river1-para {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: white;
+    font-size: .8em;
+    padding-top: 10px;
+    background-color: #3BA5A5;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#riverone, #rivertwo, #riverthree {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+
+#salmon-river-img, #desolation-gray-utah, #grand-canyon {
+    box-shadow: 5px 5px 10px #6f7364;
+    transition: transform .5s;
+    border: 10px solid #d9c2a3;
+}
+
+#salmon-river-img:hover, #desolation-gray-utah:hover, #grand-canyon:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+#desolation-gray-utah {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    color: white;
+    width: 300px;
+    height: 300px;
+}
+.river2-title {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    color: #3BA5A5;
+    font-size: .9em;
+    padding-top: 10px;
+}
+.river2-para {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    color: white;
+    font-size: .8em;
+    padding-top: 10px;
+    background-color: #3BA5A5;
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+
+#grand-canyon {
+    grid-column: 6/7;
+    grid-row: 1/2;
+    color: black;
+    max-width: 300px;
+    height: 300px;
+}
+
+.river3-title {
+    grid-column: 6/7;
+    grid-row: 2/3;
+    color: #3BA5A5;
+    font-size: .9em;
+    padding-top: 10px;
+}
+.river3-para {
+    grid-column: 6/7;
+    grid-row: 3/4;
+    color: white;
+    font-size: .8em;
+    padding-top: 10px;
+    margin-top: 40px;
+    background-color: #3BA5A5;
+    border-radius: 15px;
+    padding: 15px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
