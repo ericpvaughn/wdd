@@ -1,0 +1,7 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@200&display=swap');
+
+content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
