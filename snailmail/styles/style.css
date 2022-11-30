@@ -42,15 +42,16 @@ text-decoration: none;
 color: white;
 text-align: center;
 margin-right: 100px;
-
+padding-top: 10px;
 
 }
 nav a:hover {
 color: #94ECBE;
 background-color: #345830;
-height: 35px;
+height: 40px;
 border-radius: 20px;
 width: 300px;
+padding-top: 10px;
 }
 
 main section {
@@ -71,6 +72,14 @@ margin: 20px;
 padding: 20px;
 }
 
+.bg-image {
+    background-image: url("images/background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .intro-pic, .matterpic, .enviropic {
 width: 100%;
 }
@@ -78,6 +87,10 @@ width: 100%;
 grid-column: 1/2;
 grid-row: 1/2;
 border-radius: 40px 0px 0px 40px;
+}
+
+.intro-pic {
+    height: 80.5%;
 }
 .text-intro {
 grid-row: 1/2;
@@ -97,6 +110,7 @@ border-radius: 0px 40px 40px 0px;
 grid-column: 1/2;
 grid-row: 2/3;
 border-radius: 40px 0px 0px 40px;
+height: 80.5%;
 
 }
 .text-snail {
@@ -104,15 +118,32 @@ grid-column: 2/3;
 grid-row: 2/3;
 background-color: #4A7856;
 border-radius: 0px 40px 40px 0px;
-padding-top: 50px;
+padding-top: 85px;
 text-align: center;
 font-size: 2em;
 margin-bottom: 58.5px;
 font-family: Fredoka One, Helvetica, sans-serif;
+text-decoration: none;
 
 }
 
-.text-environmental {
+#matterlink {
+    text-decoration: none;
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 1.5em;
+    transition: transform .5s;
+}
+#matterlink:hover {
+    opacity: .6;
+    transform: scale(1.1);
+   
+}
+
+
+.text-environmental  {
 grid-column: 2/3;
 grid-row: 3/4;
 background-color: #4A7856;
@@ -120,16 +151,33 @@ border-radius: 0px 40px 40px 0px;
 text-align: center;
 font-size: 2em;
 margin-bottom: 88px;
-padding-top: 35px;
+padding-top: 75px;
 font-family: Fredoka One, Helvetica, sans-serif;
 text-decoration: none;
 }
+
+#envirolink {
+    text-decoration: none;
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 1.5em;
+    transition: transform .5s;
+}
+#envirolink:hover {
+    opacity: .6;
+    transform: scale(1.1);
+   
+}
+
 
 .environmental img {
 grid-column: 1/2;
 grid-row: 3/4;
 border-radius: 40px 0px 0px 40px;
 text-decoration: none;
+height: 71%;
 }
 .environmental h2 {
 grid-row: 3/4;
@@ -146,6 +194,7 @@ background-color: #4A7856;
 color: white;
 display: flex;
 justify-content: space-around;
+border-radius: 20px;
 }
 footer a {
 color: white;
@@ -176,17 +225,18 @@ padding: 20px;
 .snailmatterpic {
     width: 100%;
     border-radius: 40px 0px 0px 40px;
-    height: 475px;
+    height: 49%;
 }
 
 .text-whymatter {
     background-color: #4A7856;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-bottom: auto;
     text-align: center;
     border-radius: 0px 40px 40px 0px;
     padding-bottom: 30px;
+    max-height: 43.5%;
 }
 .text-whymatter h1 {
     font-family: Fredoka One, helvetica, sans-serif;
@@ -208,17 +258,18 @@ padding: 20px;
 }
 .oceanpic {
     width: 100%;
-    height: 451px;
+    height: 49%;
     border-radius: 40px 0px 0px 40px;
 }
 .text-steward {
     background-color: #4A7856;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-bottom: auto;
     padding-bottom: 30px;
     text-align: center;
     border-radius: 0px 40px 40px 0px;
+    height: 43.5%;
 }
 .text-steward h1 {
     font-family: Fredoka One, Helvetica, sans-serif;
